@@ -1,2 +1,2 @@
-# PhUSE-EU-Connect-2018-R_Workshop
+# PhUSE-EU-Connect-2018-R Workshop
 Material for R workshop
