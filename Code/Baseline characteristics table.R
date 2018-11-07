@@ -13,7 +13,8 @@ library(plyr) #To subset the dataset
 library(rtf) #To create rtf output
 
 #Create project path
-Project="D:\\Hanmant\\PhUSE R workshop materials"
+#Project="D:\\Hanmant\\PhUSE R workshop materials"
+Project="D:\\R-workshop-phuse-2018-master\\R-workshop-phuse-2018-master"
 
 #Specify the path as per your local machine
 
@@ -23,7 +24,9 @@ concat=function(folder_path,filename)
   return(p)}
 
 #Creating raw datasets library
-rawdir=concat(Project,"ADaM data")
+#rawdir=concat(Project,"ADaM data")
+rawdir=concat(Project,"Data")
+
 
 #Reading raw dataset
 adsl1=read_sas(concat(rawdir,"adsl.sas7bdat"), catalog_file = NULL, encoding = NULL)
